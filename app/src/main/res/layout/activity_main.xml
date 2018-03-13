@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mangrummicik.simontry.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/gameOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/gameTwoButton"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/game_one" />
+
+    <ImageButton
+        android:id="@+id/gameTwoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/gameThreeButton"
+        android:layout_below="@+id/gameOneButton"
+        android:src="@drawable/game_two" />
+
+    <ImageButton
+        android:id="@+id/gameThreeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/howButton"
+        android:layout_below="@+id/gameTwoButton"
+        android:src="@drawable/game_three" />
+
+    <ImageButton
+        android:id="@+id/howButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aboutButton"
+        android:layout_alignStart="@+id/aboutButton"
+        android:src="@drawable/how_to_play" />
+
+    <ImageButton
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/about" />
+</RelativeLayout>
