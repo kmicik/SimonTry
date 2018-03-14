@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">SimonTry</string>
+    <string name="how_to_play">HOW TO PLAY\n</string>
+    <string name="game_one">Game 1 - \"SIMON SAYS\"</string>
+    <string name="objective_one">Objective</string>
+    <string name="play_one">1.  Select \"Game 1\".\n2.  Select Level 1, 2, 3, or 4.\n3.  Press \"Start\" and SIMON will give the first signal.\n4.  Repeat the signal by pressing the same button.\n5.  SIMON will duplicate the first signal and add another signal.\n6.  Repeat the two signals by pressing the buttons.\n7.  Continue in this manner as long as you can repeat each sequence of signals correctly.\n8.  Notice that after the 5th, 9th and 13th signals in a sequence, SIMON automatically increases the tempo.\n9.  If you fail to repeat a sequence exactly or if you take more than 5 seconds to repeat a signal, SIMON responds with a \"RAZZ\" sound; you have lost.</string>
+    <string name="game_two">\nGame 2 - \"PLAYER ADDS\" (For one or more players)</string>
+    <string name="objective_two">Objective\nTo create a longer and longer sequence of signals</string>
+    <string name="two_play_one">1.  Select \"Game 2\".\n2.  Press \"Start\".\n3.  Repeat the signal and add one more.\n4.  Repeat the first two signals and add one more.\n5.  Continue repeating signals and increasing the sequence by one as long as you can do so correctly.\n6.  If you make an error or take more than 5 seconds to play a signal, you will hear the \"RAZZ\" sound and the sequence is ended.\n</string>
+    <string name="game_three">Game 3 - \"CHOOSE YOUR COLOR\" (for 2, 3, or 4 players)</string>
+    <string name="objective_three">Objective\nTo repeat correctly, the longest sequence of signals.</string>
+    <string name="three_play_four">FOR 4 PLAYERS\n1.  Select \"Game 3\".\n2.  Each player chooses one color and will use only that color during the game.\n3.  Press \"Start\"; SIMON will give the first signal.\n4.  The player operatin that color repeats the signal.\n5.  Play continues as described in GAME 1 except that each of you pushes only your lense in proper sequence.\n6.  If you push your color out of sequence, or if you take more than 5 seconds to repeat a signal, SIMON responds with a \"RAZZ\" sound and your color lens is eliminated from the game.\n7.  Simon automatically begins a new game with only the remaining colors.\n</string>
+    <string name="three_play_three">FOR 3 PLAYERS\n1.  Follow steps 1&#8211;2 for 4 players.\n2.  Press the \"Start\" button and wait,(SIMON will give the first signal; when it\'s not repeated, that lens will be eliminated and a new game will begin with the remaining 3 colors.)\n3.  Each player quickly chooses one color (of the remaining three) and will use only that color during the game.\n4.  SIMON will give the first signal, and the player operating that color repeats it.\n5.  Play continues exactly as described for 4 players.\n</string>
+    <string name="three_play_two">FOR 2 PLAYERS\n1.  Play proceeds as described for 4 players except each player operates two colors. (When one of your colors is eliminated, continue playing the remaining color.)</string>
+    <string name="about_head">About This App</string>
+    <string name="names">This application is a clone of the 1978 Milton Bradley game SIMON.\nThis application was programed by Joseph \'Caleb\' Mangrum and Kristopher Micik.</string>
+    <string name="images">All images in this application were created by Kristopher Micik.</string>
+    <string name="sounds">All audio files in this application were acquired from www.pacdv.com\n\nwrong.mp3 - http://www.pacdv.com/sounds/interface_sounds.html - Interface Sound 16\n\ngreen.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 51\n\nblue.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 52\n\nyellow.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 53\n\nred.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 55\n\nwin.wav - http://www.pacdv.com/sounds/miscellaneous_sounds.html - Dhol Drums</string>
+
 </resources>
