@@ -13,8 +13,8 @@
     <string name="three_play_three">FOR 3 PLAYERS\n1.  Follow steps 1&#8211;2 for 4 players.\n2.  Press the \"Start\" button and wait,(SIMON will give the first signal; when it\'s not repeated, that lens will be eliminated and a new game will begin with the remaining 3 colors.)\n3.  Each player quickly chooses one color (of the remaining three) and will use only that color during the game.\n4.  SIMON will give the first signal, and the player operating that color repeats it.\n5.  Play continues exactly as described for 4 players.\n</string>
     <string name="three_play_two">FOR 2 PLAYERS\n1.  Play proceeds as described for 4 players except each player operates two colors. (When one of your colors is eliminated, continue playing the remaining color.)</string>
     <string name="about_head">About This App</string>
-    <string name="names">This application is a clone of the 1978 Milton Bradley game SIMON.\nThis application was programed by Joseph \'Caleb\' Mangrum and Kristopher Micik.</string>
-    <string name="images">All images in this application were created by Kristopher Micik.</string>
+    <string name="names">This application is a clone of the 1978 Milton Bradley game SIMON.\n\nThis application was programed by Joseph \'Caleb\' Mangrum and Kristopher Micik.\n</string>
+    <string name="images">All images in this application were created by Kristopher Micik.\n</string>
     <string name="sounds">All audio files in this application were acquired from www.pacdv.com\n\nwrong.mp3 - http://www.pacdv.com/sounds/interface_sounds.html - Interface Sound 16\n\ngreen.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 51\n\nblue.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 52\n\nyellow.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 53\n\nred.wav - http://www.pacdv.com/sounds/interface_sounds-2.html - Interface Sound 55\n\nwin.wav - http://www.pacdv.com/sounds/miscellaneous_sounds.html - Dhol Drums</string>
 
 </resources>
