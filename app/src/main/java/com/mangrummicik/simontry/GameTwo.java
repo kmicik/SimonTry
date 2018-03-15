@@ -13,14 +13,15 @@ import java.util.Random;
 import java.util.Set;
 
 
-public class GameOne extends Activity implements View.OnClickListener{
+public class GameTwo extends Activity implements View.OnClickListener{
 
     Random r = new Random();
-    final int TIMER_ONE = 1000;
+    final int TIMER_TWO = 500;
+    final int TIMER_THREE = 250;
     int iSub = 0;
     static int turns = 1;
     static int guess = 0;
-    int [] reqs = new int[8];
+    int [] reqs = new int[14];
     private SoundPool soundPool;
     private Set<Integer> soundsLoaded;
     @Override
@@ -32,7 +33,7 @@ public class GameOne extends Activity implements View.OnClickListener{
 
         final ImageButton playButton = findViewById(R.id.playButton);
         playButton.setOnClickListener(this);
-        }
+    }
 
     @Override
     public void onClick(View v) {
@@ -102,7 +103,7 @@ public class GameOne extends Activity implements View.OnClickListener{
                 guess = 0;
                 turns++;
             }
-            if (turns == 9) {
+            if (turns == 15) {
                 playSound(winId);
             } else {
                 playButton.setImageResource(R.drawable.wait);
@@ -123,7 +124,7 @@ public class GameOne extends Activity implements View.OnClickListener{
                                         greenSquare.setImageResource(R.drawable.green_default);
                                         iSub++;
                                     }
-                                }, TIMER_ONE);
+                                }, TIMER_TWO);
                             } else if (reqs[iSub] == 2) {
                                 redSquare.setImageResource(R.drawable.red_lit);
                                 playSound(redId);
@@ -133,7 +134,7 @@ public class GameOne extends Activity implements View.OnClickListener{
                                         redSquare.setImageResource(R.drawable.red_default);
                                         iSub++;
                                     }
-                                }, TIMER_ONE);
+                                }, TIMER_TWO);
                             } else if (reqs[iSub] == 3) {
                                 yellowSquare.setImageResource(R.drawable.yellow_lit);
                                 playSound(yellowId);
@@ -143,7 +144,7 @@ public class GameOne extends Activity implements View.OnClickListener{
                                         yellowSquare.setImageResource(R.drawable.yello_default);
                                         iSub++;
                                     }
-                                }, TIMER_ONE);
+                                }, TIMER_TWO);
                             } else if (reqs[iSub] == 0) {
                                 blueSquare.setImageResource(R.drawable.blue_lit);
                                 playSound(blueId);
@@ -153,7 +154,7 @@ public class GameOne extends Activity implements View.OnClickListener{
                                         blueSquare.setImageResource(R.drawable.blue_default);
                                         iSub++;
                                     }
-                                }, TIMER_ONE);
+                                }, TIMER_TWO);
                             }
                             playButton.setImageResource(R.drawable.wait);
                             playButton.postDelayed(new Runnable() {
@@ -164,7 +165,7 @@ public class GameOne extends Activity implements View.OnClickListener{
                                 }
                             }, turns * turnTime);
                         }
-                    }, 1500 * i);
+                    }, 1000 * i);
                 }
             }
         }
@@ -175,4 +176,3 @@ public class GameOne extends Activity implements View.OnClickListener{
         }
     }
 }
-

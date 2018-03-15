@@ -18,23 +18,29 @@ public class MainActivity extends Activity {
         gameOne.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.game_one);
-
-                ImageButton imageButton = findViewById(R.id.skillOneButton);
-                imageButton.setOnClickListener(new View.OnClickListener(){
-
-                    @Override
-                    public void onClick(View view) {
                         Intent intent = new Intent(getApplicationContext(), GameOne.class);
                         startActivity(intent);
                     }
                 });
+
+        ImageButton gameTwo = findViewById(R.id.gameTwoButton);
+        gameTwo.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), GameTwo.class);
+                startActivity(intent);
             }
         });
 
-        ImageButton gameTwo = findViewById(R.id.gameTwoButton);
-
         ImageButton gameThree = findViewById(R.id.gameThreeButton);
+        gameThree.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), GameThree.class);
+                startActivity(intent);
+            }
+        });
 
         ImageButton howButton = findViewById(R.id.howButton);
         howButton.setOnClickListener(new View.OnClickListener() {

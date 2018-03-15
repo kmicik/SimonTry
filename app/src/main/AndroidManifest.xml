@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameOne" android:label="Simon Says"/>
+        <activity android:name=".GameOne" android:label="Simon Says Game One"/>
+        <activity android:name=".GameTwo" android:label="Simon Says Game Two"/>
+        <activity android:name=".GameThree" android:label="Simon Says Game Three"/>
         <activity android:name=".HowToPlay" android:label="How To Play"/>
         <activity android:name=".About" android:label="About"/>
     </application>
