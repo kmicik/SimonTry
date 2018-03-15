@@ -36,8 +36,9 @@ public class MainActivity extends Activity {
 
         ImageButton gameThree = findViewById(R.id.gameThreeButton);
 
-        final ImageButton howButton = findViewById(R.id.howButton);
+        ImageButton howButton = findViewById(R.id.howButton);
         howButton.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v){
                 if(v.getId() == R.id.howButton){
                     Intent intent = new Intent(getApplicationContext(), HowToPlay.class);
@@ -48,7 +49,6 @@ public class MainActivity extends Activity {
 
         ImageButton aboutButton = findViewById(R.id.aboutButton);
         aboutButton.setOnClickListener(new View.OnClickListener(){
-
             @Override
             public void onClick(View view) {
                 if(view.getId() == R.id.aboutButton) {
